@@ -2252,7 +2252,7 @@ MonoBehaviour:
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_SoftZoneWidth: 0.6834667
-  m_SoftZoneHeight: 0.81917524
+  m_SoftZoneHeight: 0.9074246
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
