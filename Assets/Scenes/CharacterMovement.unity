@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 19535275}
   - component: {fileID: 19535274}
   - component: {fileID: 19535273}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 66623696}
   - component: {fileID: 66623695}
   - component: {fileID: 66623694}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,7 +445,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
+  near clip plane: 0.01
   far clip plane: 5000
   field of view: 40
   orthographic: 0
@@ -473,7 +473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145263975}
   m_LocalRotation: {x: 0.24776818, y: 0.0000000011549226, z: -2.9536265e-10, w: 0.9688194}
-  m_LocalPosition: {x: 0, y: 7.1753683, z: -11.153359}
+  m_LocalPosition: {x: -0.006968293, y: 7.1753683, z: -10.810502}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -560,7 +560,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
-    NearClipPlane: 0.1
+    NearClipPlane: 0.01
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 366170071}
   - component: {fileID: 366170070}
   - component: {fileID: 366170069}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 446534915}
   - component: {fileID: 446534914}
   - component: {fileID: 446534913}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -915,7 +915,7 @@ GameObject:
   - component: {fileID: 500272934}
   - component: {fileID: 500272933}
   - component: {fileID: 500272932}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1184,7 +1184,7 @@ GameObject:
   - component: {fileID: 730978305}
   - component: {fileID: 730978304}
   - component: {fileID: 730978303}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1279,7 +1279,7 @@ GameObject:
   - component: {fileID: 734128362}
   - component: {fileID: 734128361}
   - component: {fileID: 734128360}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1374,7 @@ GameObject:
   - component: {fileID: 1066831845}
   - component: {fileID: 1066831844}
   - component: {fileID: 1066831843}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1470,7 +1470,7 @@ GameObject:
   - component: {fileID: 1086631520}
   m_Layer: 0
   m_Name: 3rdPersonPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1482,8 +1482,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086631517}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.81600004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.006968293, y: 0, z: 1.1588573}
   m_LocalScale: {x: 1.2, y: 1.8, z: 1.2}
   m_Children:
   - {fileID: 130899841}
@@ -1520,6 +1520,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202da200a60d2584bba898aa1afa9a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 1086631519}
+  camera: {fileID: 145263978}
+  speed: 6
+  turnSmoothTime: 0.1
 --- !u!1 &1508117620
 GameObject:
   m_ObjectHideFlags: 3
@@ -1567,7 +1571,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
-    NearClipPlane: 0.1
+    NearClipPlane: 0.01
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
@@ -1606,7 +1610,7 @@ GameObject:
   - component: {fileID: 1527401016}
   - component: {fileID: 1527401015}
   - component: {fileID: 1527401014}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1699,6 +1703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1585740631}
   - component: {fileID: 1585740630}
+  - component: {fileID: 1585740632}
   m_Layer: 0
   m_Name: 3rdPerson Camera
   m_TagString: Untagged
@@ -1730,7 +1735,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
-    NearClipPlane: 0.1
+    NearClipPlane: 0.01
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
@@ -1744,7 +1749,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.46
     m_SpeedMode: 0
-    m_MaxSpeed: 3
+    m_MaxSpeed: 4
     m_AccelTime: 0.2
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -1815,7 +1820,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585740629}
   m_LocalRotation: {x: -0, y: 0.6614004, z: -0, w: 0.7500331}
-  m_LocalPosition: {x: 0, y: 7.1753683, z: -11.153359}
+  m_LocalPosition: {x: -0.006968293, y: 7.1753683, z: -10.810502}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1691839956}
@@ -1824,6 +1829,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 82.814, z: 0}
+--- !u!114 &1585740632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585740629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 8
+  m_IgnoreTag: Player
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 0
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0
+  m_Damping: 0.6
+  m_DampingWhenOccluded: 0.6
+  m_OptimalTargetDistance: 0
 --- !u!1 &1668790837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,7 +1868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1668790838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1913,7 +1948,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
-    NearClipPlane: 0.1
+    NearClipPlane: 0.01
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
@@ -1952,7 +1987,7 @@ GameObject:
   - component: {fileID: 1719608971}
   - component: {fileID: 1719608970}
   - component: {fileID: 1719608969}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2298,7 +2333,7 @@ GameObject:
   - component: {fileID: 2051565793}
   - component: {fileID: 2051565795}
   - component: {fileID: 2051565794}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2375,7 +2410,7 @@ GameObject:
   - component: {fileID: 2130633678}
   - component: {fileID: 2130633677}
   - component: {fileID: 2130633676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
