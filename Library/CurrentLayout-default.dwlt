@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 875, y: 442}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -43,14 +43,14 @@ MonoBehaviour:
     y: 0
     width: 981
     height: 460
-  m_MinSize: {x: 102, y: 121}
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 11}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 11}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 442}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -152,10 +152,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 709, y: 392}
+  m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 15
+  controlID: 113
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -198,7 +198,7 @@ MonoBehaviour:
     y: 0
     width: 981
     height: 731
-  m_MinSize: {x: 232, y: 392}
+  m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 16
@@ -377,7 +377,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 111.20001
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -421,22 +421,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: 58
-  m_LastProjectPath: C:\Users\crazy\Dreamfruit_Interactive_Game
+  m_LastProjectPath: C:\Users\Ryan Bahmanyar\Documents\GitHub\Dreamfruit_Interactive_Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b23c0000
-    m_LastClickedID: 15538
-    m_ExpandedIDs: 0000000000ca9a3b
+    m_SelectedIDs: e43c0000
+    m_LastClickedID: 15588
+    m_ExpandedIDs: 00000000de3c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.850649, y: -7.7169266, z: 14.7331505}
+    m_Target: {x: -16.69, y: 1.21, z: 23}
     speed: 2
-    m_Value: {x: -9.850649, y: -7.7169266, z: 14.7331505}
+    m_Value: {x: -16.69, y: 1.21, z: 23}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -606,13 +606,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.23524529, y: 0.33865476, z: -0.087974705, w: -0.90705174}
+    m_Target: {x: -0.22584541, y: -0.4059624, z: 0.103793025, w: -0.8797868}
     speed: 2
-    m_Value: {x: -0.23518534, y: 0.33856848, z: -0.087952286, w: -0.9068206}
+    m_Value: {x: -0.22577661, y: -0.40583876, z: 0.10376141, w: -0.8795188}
   m_Size:
-    m_Target: 13.861002
+    m_Target: 2.0766106
     speed: 2
-    m_Value: 13.861002
+    m_Value: 2.0766106
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -666,9 +666,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4c3c0000
-      m_LastClickedID: 15436
-      m_ExpandedIDs: 50fbffff
+      m_SelectedIDs: ee950000
+      m_LastClickedID: 38382
+      m_ExpandedIDs: de58ffff1859ffff725cffff2e5dffffd05fffff5860fffff060ffffde65ffff4868ffff126affff9a6affff226bffffaa6bffff326cffffba6cffff9e74ffff2675ffffae75ffff3676ffffc676ffff2e7affffb67affffae7bffff367cffffbe7cffffaa7dffff267effffce7effff567fffffe27fffff5881ffff4486ffff1687fffff49dffffee9effff12baffff82bcffff64bdffff52bffffffac0ffff72c2ffffd4c3ffffd8c4ffff02c6ffff0ac7ffff60c8ffff46ccffff84cdffff30d6ffff52d9ffffc8e6ffffb6e7ffffa0e8ffffaef1ffff90f5ffff42fbffff9e42000094540000c4540000ee550000da580000065b0000585f0000246c0000867b0000ce7b0000fa7f000078840000f48800006a9000003894000084960000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
