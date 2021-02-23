@@ -7,7 +7,7 @@ public class MoveScene : MonoBehaviour
 {
     [SerializeField] private string loadLevel;
 
-    void onTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
