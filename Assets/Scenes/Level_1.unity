@@ -872,11 +872,15 @@ Transform:
   m_GameObject: {fileID: 480778617}
 <<<<<<< HEAD
   m_LocalRotation: {x: 0.13326433, y: 0.0000000306181, z: -0.0000000041170227, w: 0.9910805}
+<<<<<<< HEAD
   m_LocalPosition: {x: 2.3, y: 25.114197, z: -22.951801}
 =======
   m_LocalRotation: {x: 0.18656681, y: -0.000000027773865, z: 0.0000000052742863, w: 0.98244226}
   m_LocalPosition: {x: -0.86447, y: 24.316498, z: -22.646181}
 >>>>>>> parent of 9e4ff2f (Adjusted cameras and player speed/jump)
+=======
+  m_LocalPosition: {x: -2.35, y: 25.236015, z: -25.8418}
+>>>>>>> parent of 59b4b6b (fixed ship part teleport)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2583,19 +2587,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadLevel: Scenes/HubLevel
---- !u!65 &1499220811
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499220805}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.4070394, y: 2.4070396, z: 2.4070394}
-  m_Center: {x: 0, y: 0.0000009536743, z: 0}
 --- !u!1001 &1523047042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2767,28 +2758,40 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 2.3
 =======
       value: -0.86447
 >>>>>>> parent of 9e4ff2f (Adjusted cameras and player speed/jump)
+=======
+      value: -2.35
+>>>>>>> parent of 59b4b6b (fixed ship part teleport)
       objectReference: {fileID: 0}
     - target: {fileID: 2882912916255344376, guid: f3a7926231551f74e9a365bf7b8f8bb9,
         type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 25.114197
 =======
       value: 24.316498
 >>>>>>> parent of 9e4ff2f (Adjusted cameras and player speed/jump)
+=======
+      value: 25.236015
+>>>>>>> parent of 59b4b6b (fixed ship part teleport)
       objectReference: {fileID: 0}
     - target: {fileID: 2882912916255344376, guid: f3a7926231551f74e9a365bf7b8f8bb9,
         type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -22.951801
 =======
       value: -22.646181
 >>>>>>> parent of 9e4ff2f (Adjusted cameras and player speed/jump)
+=======
+      value: -25.8418
+>>>>>>> parent of 59b4b6b (fixed ship part teleport)
       objectReference: {fileID: 0}
     - target: {fileID: 2882912916255344376, guid: f3a7926231551f74e9a365bf7b8f8bb9,
         type: 3}
@@ -2864,7 +2867,7 @@ PrefabInstance:
         type: 3}
 <<<<<<< HEAD
       propertyPath: m_LocalPosition.y
-      value: -0.02999878
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3890680779636939062, guid: f3a7926231551f74e9a365bf7b8f8bb9,
         type: 3}
@@ -2882,28 +2885,40 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.1145331
 =======
       value: 0.15437676
 >>>>>>> parent of 9e4ff2f (Adjusted cameras and player speed/jump)
+=======
+      value: 0.11453309
+>>>>>>> parent of 59b4b6b (fixed ship part teleport)
       objectReference: {fileID: 0}
     - target: {fileID: 3890680779636939062, guid: f3a7926231551f74e9a365bf7b8f8bb9,
         type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0.6536434
 =======
       value: -0.6472388
 >>>>>>> parent of 9e4ff2f (Adjusted cameras and player speed/jump)
+=======
+      value: -0.6536435
+>>>>>>> parent of 59b4b6b (fixed ship part teleport)
       objectReference: {fileID: 0}
     - target: {fileID: 3890680779636939062, guid: f3a7926231551f74e9a365bf7b8f8bb9,
         type: 3}
       propertyPath: m_LocalRotation.z
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.10099852
 =======
       value: 0.13613379
 >>>>>>> parent of 9e4ff2f (Adjusted cameras and player speed/jump)
+=======
+      value: 0.10099853
+>>>>>>> parent of 59b4b6b (fixed ship part teleport)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3a7926231551f74e9a365bf7b8f8bb9, type: 3}
@@ -3569,17 +3584,17 @@ PrefabInstance:
     - target: {fileID: 3831476731314739229, guid: 4db5152e42d61194e94fad2eb123ff20,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3
+      value: -2.35
       objectReference: {fileID: 0}
     - target: {fileID: 3831476731314739229, guid: 4db5152e42d61194e94fad2eb123ff20,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.96
+      value: 18.081816
       objectReference: {fileID: 0}
     - target: {fileID: 3831476731314739229, guid: 4db5152e42d61194e94fad2eb123ff20,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.8
+      value: -9.69
       objectReference: {fileID: 0}
     - target: {fileID: 3831476731314739229, guid: 4db5152e42d61194e94fad2eb123ff20,
         type: 3}
