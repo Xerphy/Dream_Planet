@@ -5283,6 +5283,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadLevel: Scenes/HubLevel
+--- !u!65 &1499220808
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499220805}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4070394, y: 2.4070396, z: 2.4070394}
+  m_Center: {x: 0, y: 0.00000071525574, z: 0}
 --- !u!1 &1507450445
 GameObject:
   m_ObjectHideFlags: 0
