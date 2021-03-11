@@ -21,6 +21,9 @@ public class thirdpersonmovementscript : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    //checkpoint respawn coord
+    public Vector3 respawnLocation;
+
     // Update is called once per frame
     void Update()
     {
@@ -52,5 +55,17 @@ public class thirdpersonmovementscript : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);  // Moves the character based on gravity
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Checkpoint")//if player reaches a checkpoint, then respawnLocation is set to the position of said checkpoint
+        {
+            respawnLocation = other.transform.position;
+        }
+        else if(other.tag == "DeathZone")
+        {
+            transform.position = respawnLocation;//teleport player to last checkpoint when they fall off level
+        }
     }
 }
