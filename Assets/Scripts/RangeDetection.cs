@@ -6,6 +6,7 @@ using Fungus;
 public class RangeDetection : MonoBehaviour
 {
     public Flowchart flowchart;
+    public GameObject speechBubble;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,10 @@ public class RangeDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (flowchart.GetBooleanVariable("talkedToDingo"))
+        {
+            speechBubble.SetActive(false);  // Disables the speech bubble once the player has talked to dingo
+        }
     }
 
     void OnTriggerEnter()
