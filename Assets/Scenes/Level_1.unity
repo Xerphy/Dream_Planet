@@ -2083,7 +2083,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480778617}
-  m_LocalRotation: {x: 0.0071499106, y: 0.98942226, z: -0.052365534, w: 0.13509423}
+  m_LocalRotation: {x: 0.0071499106, y: 0.98942226, z: -0.05236553, w: 0.13509423}
   m_LocalPosition: {x: -6.5628834, y: 22.782398, z: 5.44985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -3688,17 +3688,17 @@ PrefabInstance:
     - target: {fileID: 299087033500825568, guid: ac2e8e5ec2dc68246a4533a326607831,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.030122347
+      value: 0.030122343
       objectReference: {fileID: 0}
     - target: {fileID: 299087033500825568, guid: ac2e8e5ec2dc68246a4533a326607831,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.65314364
+      value: 0.6531435
       objectReference: {fileID: 0}
     - target: {fileID: 299087033500825568, guid: ac2e8e5ec2dc68246a4533a326607831,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.026017653
+      value: -0.026017647
       objectReference: {fileID: 0}
     - target: {fileID: 2785080165259568346, guid: ac2e8e5ec2dc68246a4533a326607831,
         type: 3}
@@ -7304,6 +7304,16 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 480778620}
+    - target: {fileID: 3831476731314739235, guid: 4db5152e42d61194e94fad2eb123ff20,
+        type: 3}
+      propertyPath: jumpHeight
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831476731314739235, guid: 4db5152e42d61194e94fad2eb123ff20,
+        type: 3}
+      propertyPath: doubleJumpMultiplier
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4db5152e42d61194e94fad2eb123ff20, type: 3}
 --- !u!1 &1831136316

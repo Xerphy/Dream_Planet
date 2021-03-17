@@ -10,6 +10,8 @@ public class thirdpersonmovementscript : MonoBehaviour
     public float speed = 6f;    // Speed of character movement
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
+    bool canDoubleJump = false;//Check to make sure that player is allowed to double jump
+    public float doubleJumpMultiplier = 0.5f;
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVel;
@@ -46,6 +48,7 @@ public class thirdpersonmovementscript : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");  // Captures A, D, Left Arrow, and Right Arrow key inputs
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
+        //XZ movement
         if(direction.magnitude >= 0.1f)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + camera.eulerAngles.y;
@@ -56,13 +59,26 @@ public class thirdpersonmovementscript : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        //Jumping
+        if(isGrounded)
         {
-            //controller.slopeLimit = 90.0f; // Added to stop clipping on 90 degree walls
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            canDoubleJump = true;
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                //controller.slopeLimit = 90.0f; // Added to stop clipping on 90 degree walls
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            }
         }
+        else if(Input.GetButtonDown("Jump") && canDoubleJump)//If player is in the air and can double jump, they will double jump
+        {
+            velocity.y = jumpHeight * doubleJumpMultiplier;
+            canDoubleJump = false;
+        }
+        
 
         velocity.y += gravity * Time.deltaTime;
+
         controller.Move(velocity * Time.deltaTime);  // Moves the character based on gravity
     }
 
