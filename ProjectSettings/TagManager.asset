@@ -8,6 +8,7 @@ TagManager:
   - OnCharacterColliderHit
   - Checkpoint
   - DeathZone
+  - Jetpack
   layers:
   - Default
   - TransparentFX

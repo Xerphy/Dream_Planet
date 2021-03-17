@@ -12,6 +12,7 @@ public class thirdpersonmovementscript : MonoBehaviour
     public float jumpHeight = 3f;
     bool canDoubleJump = false;//Check to make sure that player is allowed to double jump
     public float doubleJumpMultiplier = 0.5f;
+    bool hasJetPack = false;
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVel;
@@ -70,7 +71,7 @@ public class thirdpersonmovementscript : MonoBehaviour
                 velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             }
         }
-        else if(Input.GetButtonDown("Jump") && canDoubleJump)//If player is in the air and can double jump, they will double jump
+        else if(Input.GetButtonDown("Jump") && canDoubleJump && hasJetPack)//If player is in the air and can double jump and has jetpack upgrade, they will double jump
         {
             velocity.y = jumpHeight * doubleJumpMultiplier;
             canDoubleJump = false;
@@ -91,6 +92,10 @@ public class thirdpersonmovementscript : MonoBehaviour
         else if(other.tag == "DeathZone")
         {
             transform.position = respawnLocation;//teleport player to last checkpoint when they fall off level
+        }
+        else if(other.tag == "Jetpack")
+        {
+            hasJetPack = true;
         }
     }
 }
