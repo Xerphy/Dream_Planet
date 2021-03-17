@@ -31,8 +31,16 @@ public class thirdpersonmovementscript : MonoBehaviour
 
         if (isGrounded && velocity.y < 0)
         {
+            //controller.slopeLimit = 45.0f; // Added to stop clipping on 90 degree walls
             velocity.y = -2f;
         }
+
+        /*
+        if ((controller.collisionFlags & CollisionFlags.Above) != 0)    // Detects if the player jumps into an object and bumps their head on something
+        {
+            velocity.y = -2f;
+        }
+        */
 
         float horizontal = Input.GetAxisRaw("Horizontal");  // Captures W, S, Up Arrow, and Down Arrow key inputs
         float vertical = Input.GetAxisRaw("Vertical");  // Captures A, D, Left Arrow, and Right Arrow key inputs
@@ -50,6 +58,7 @@ public class thirdpersonmovementscript : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            //controller.slopeLimit = 90.0f; // Added to stop clipping on 90 degree walls
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
