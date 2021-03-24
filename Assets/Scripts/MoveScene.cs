@@ -7,11 +7,25 @@ public class MoveScene : MonoBehaviour
 {
     [SerializeField] private string loadLevel;
 
+    public Animator transition;
+
+    public float transitionTime = 1f;
+
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(loadLevel);
+            StartCoroutine(LoadLevel());
         }
+    }
+
+    IEnumerator LoadLevel()
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(loadLevel);
+
     }
 }
