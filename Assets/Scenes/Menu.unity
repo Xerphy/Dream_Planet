@@ -1554,14 +1554,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move - WASD
+  m_text: 'Pause - Esc
+
+    Move - WASD
 
     Jump - Spacebar
 
-    Control Camera - Mouse
+    Control Camera
+    - Mouse
 
-    Sprint
-    - Left Shift
+    Sprint - Left Shift
 
     Attack - Right Click
 
