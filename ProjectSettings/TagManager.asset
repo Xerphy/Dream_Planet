@@ -9,6 +9,7 @@ TagManager:
   - Checkpoint
   - DeathZone
   - Jetpack
+  - RayGun
   layers:
   - Default
   - TransparentFX
