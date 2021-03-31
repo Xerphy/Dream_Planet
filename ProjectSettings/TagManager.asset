@@ -12,6 +12,7 @@ TagManager:
   - RayGun
   - bullet
   - FirePoint
+  - Fist
   layers:
   - Default
   - TransparentFX
