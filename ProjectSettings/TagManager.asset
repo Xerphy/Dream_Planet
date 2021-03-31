@@ -10,6 +10,8 @@ TagManager:
   - DeathZone
   - Jetpack
   - RayGun
+  - bullet
+  - FirePoint
   layers:
   - Default
   - TransparentFX

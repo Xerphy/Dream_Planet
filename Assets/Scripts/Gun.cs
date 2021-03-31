@@ -10,13 +10,14 @@ public class Gun : MonoBehaviour
     public GameObject laserPrefab;
     public float fireRate;
     private float shootRateTimeStamp;
+    public bool canShoot = false;
 
     RaycastHit hit;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if(Input.GetButtonDown("Fire1") && canShoot)
         {
             if(Time.time > shootRateTimeStamp)
             {
