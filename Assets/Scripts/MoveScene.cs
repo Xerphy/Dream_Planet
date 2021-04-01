@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GameCreator.Core;
 
 public class MoveScene : MonoBehaviour
 {
@@ -9,7 +10,9 @@ public class MoveScene : MonoBehaviour
 
     public Animator transition;
 
-    public float transitionTime = 1f;
+    public float transitionTime;
+
+    public 
 
     void OnTriggerEnter(Collider other)
     {
@@ -22,6 +25,7 @@ public class MoveScene : MonoBehaviour
     IEnumerator LoadLevel()
     {
         transition.SetTrigger("Start");
+
 
         yield return new WaitForSeconds(transitionTime);
 

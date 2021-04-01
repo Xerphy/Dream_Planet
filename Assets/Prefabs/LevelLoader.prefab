@@ -254,4 +254,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadLevel: 
   transition: {fileID: 952875949094133994}
-  transitionTime: 1
+  transitionTime: 0.1
