@@ -66300,7 +66300,7 @@ GameObject:
   - component: {fileID: 2024611116}
   - component: {fileID: 2024611115}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Minimap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
