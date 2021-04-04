@@ -9,6 +9,10 @@ TagManager:
   - Checkpoint
   - DeathZone
   - Jetpack
+  - RayGun
+  - bullet
+  - FirePoint
+  - Fist
   layers:
   - Default
   - TransparentFX
