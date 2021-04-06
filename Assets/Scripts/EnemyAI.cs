@@ -91,10 +91,14 @@ public class EnemyAI : MonoBehaviour
         if (!alreadyAttacked)
         {
             // Attack
-            Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            float projectilePositionY = transform.position.y + 2f;  // Makes it so the projectile spawns halfway through enemy height
+            Vector3 projectilePosition = transform.position;
+            projectilePosition.y = projectilePositionY;
+
+            Rigidbody rb = Instantiate(projectile, projectilePosition, Quaternion.identity).GetComponent<Rigidbody>();
 
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            rb.AddForce(transform.up * 5f, ForceMode.Impulse);
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);

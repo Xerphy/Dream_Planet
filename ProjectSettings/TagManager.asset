@@ -13,6 +13,7 @@ TagManager:
   - bullet
   - FirePoint
   - Fist
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -21,8 +22,8 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
-  - 
+  - Enemy
+  - EnemyBullet
   - 
   - 
   - 
