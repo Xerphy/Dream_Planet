@@ -132,4 +132,14 @@ public class EnemyAI : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Collision from enemy");
+        if(other.gameObject.tag == "Bullet" || other.gameObject.tag == "Fist")
+        {
+            Debug.Log("Enemy took damage");
+            TakeDamage(50);
+        }
+    }
 }
