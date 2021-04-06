@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
-    public float range = 100f;
+    public float range = 100000f;
 
     [SerializeField]
     //private Transform firePoint;//Point where laser beams will originate from
