@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using GameCreator.Core;
+using GameCreator.Variables;
 
 public class MoveScene : MonoBehaviour
 {
@@ -12,11 +13,18 @@ public class MoveScene : MonoBehaviour
 
     public float transitionTime;
 
-    public 
+    private void Update()
+    {
+        if ((float)VariablesManager.GetGlobal("CollectedPieces") == 3f && (float)VariablesManager.GetGlobal("CompletedLevel1") == 0f)
+        {
+            VariablesManager.SetGlobal("CompletedLevel1", 1f);   
+            StartCoroutine(LoadLevel());
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !this.gameObject.CompareTag("Player"))
         {
             StartCoroutine(LoadLevel());
         }
@@ -26,10 +34,8 @@ public class MoveScene : MonoBehaviour
     {
         transition.SetTrigger("Start");
 
-
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(loadLevel);
-
     }
 }
