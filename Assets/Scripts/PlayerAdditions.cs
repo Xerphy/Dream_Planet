@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GameCreator.Variables;
 
 public class PlayerAdditions : MonoBehaviour
 {
@@ -13,7 +14,6 @@ public class PlayerAdditions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
     }
 }
 
