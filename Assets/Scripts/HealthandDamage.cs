@@ -24,13 +24,6 @@ public class HealthandDamage : MonoBehaviour
             }
 
             UIHealth.text = "Health: " + playerHealth;
-
-            /*
-            if (other.tag == "EnemyBullet")
-            {
-                Destroy(other);
-            }
-            */
         }
     }
 }

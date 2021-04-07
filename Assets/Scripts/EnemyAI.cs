@@ -136,7 +136,7 @@ public class EnemyAI : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Collision from enemy");
-        if(other.gameObject.tag == "Bullet" || other.gameObject.tag == "Fist")
+        if(other.tag == "Bullet" || other.tag == "Fist")
         {
             Debug.Log("Enemy took damage");
             TakeDamage(50);
