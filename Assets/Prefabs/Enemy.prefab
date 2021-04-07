@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2984742792710798431}
   m_Layer: 7
   m_Name: Amogus
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,8 +194,8 @@ GameObject:
   - component: {fileID: 2984742793101335015}
   - component: {fileID: 2984742793101335012}
   m_Layer: 7
-  m_Name: Cube
-  m_TagString: Untagged
+  m_Name: Visor
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -12,7 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020da939d7f047b47b3a97e6cea3e1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIHealth: {fileID: 0}
   playerHealth: 5
+--- !u!136 &6021856962183364139
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645284941402868242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 1.8
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!114 &1131796003
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -290,6 +305,11 @@ PrefabInstance:
       propertyPath: items.Array.data[0].actions
       value: 
       objectReference: {fileID: 4589776062554360377}
+    - target: {fileID: 8064970390157906134, guid: 92e84b1b332bab74abb40b9cc391b8f1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8064970390157906140, guid: 92e84b1b332bab74abb40b9cc391b8f1,
         type: 3}
       propertyPath: otherCollider
@@ -298,6 +318,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8064970390157906133, guid: 92e84b1b332bab74abb40b9cc391b8f1, type: 3}
     - {fileID: 7749261364902591854, guid: 92e84b1b332bab74abb40b9cc391b8f1, type: 3}
+    - {fileID: 8064970390157906134, guid: 92e84b1b332bab74abb40b9cc391b8f1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 92e84b1b332bab74abb40b9cc391b8f1, type: 3}
 --- !u!1 &1645284941402868242 stripped
 GameObject:
