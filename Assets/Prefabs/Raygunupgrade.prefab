@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7318876660336274406}
   - component: {fileID: 7318876660336274407}
   - component: {fileID: 7318876660336274404}
+  - component: {fileID: -677838412528174529}
   m_Layer: 0
   m_Name: Raygunupgrade
   m_TagString: RayGun
@@ -96,6 +97,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-677838412528174529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7318876660336274405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe45a1480dff2554f864d57f116353ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.1
+  degreesPerSecond: 15
+  amplitude: 0.5
+  frequency: 1
 --- !u!1001 &866299552860424031
 PrefabInstance:
   m_ObjectHideFlags: 0
