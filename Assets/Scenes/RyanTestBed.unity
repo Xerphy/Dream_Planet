@@ -1189,6 +1189,11 @@ PrefabInstance:
       propertyPath: variable.local.name
       value: Jump-Times
       objectReference: {fileID: 0}
+    - target: {fileID: 547621384491911872, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: variable.variableType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 675865986063414869, guid: 89a92d8730224d644a7efa00485ed4cc,
         type: 3}
       propertyPath: m_Name
@@ -1208,6 +1213,16 @@ PrefabInstance:
         type: 3}
       propertyPath: lengthInSec
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081824122440535786, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: active
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447569471851588146, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: active
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5806746618353054234, guid: 89a92d8730224d644a7efa00485ed4cc,
         type: 3}

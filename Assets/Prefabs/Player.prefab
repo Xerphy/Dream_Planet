@@ -101,6 +101,11 @@ PrefabInstance:
       propertyPath: character.character
       value: 
       objectReference: {fileID: 288201028602881899}
+    - target: {fileID: 6026180903358131052, guid: 92e84b1b332bab74abb40b9cc391b8f1,
+        type: 3}
+      propertyPath: character.character
+      value: 
+      objectReference: {fileID: 288201028602881899}
     - target: {fileID: 6122028186233061867, guid: 92e84b1b332bab74abb40b9cc391b8f1,
         type: 3}
       propertyPath: looping
