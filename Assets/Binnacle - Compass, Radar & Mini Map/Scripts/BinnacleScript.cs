@@ -25,7 +25,8 @@ public class BinnacleScript : MonoBehaviour {
 	[Tooltip("Select an image or rect prefab to use as a default marker. This can be overridden on each tracked object.")]
 	public Image defaulMarkerImage;
 	public static Image fallbackMarkerImage;
-	
+	public static Image MyCustomMarker;
+
 	[Tooltip("The radius of your radar in unity units. This will also be modified by the Radar Mask Scale.")]
 	public float radarRadius = 20.0f;
 	//[Tooltip("This allows you to scale down the mask for the markers on the radar. This is useful if you replace the radar graphic.")]
@@ -98,8 +99,10 @@ public class BinnacleScript : MonoBehaviour {
 		radarMarkers.Add (new RadarObject (){owner = radarMarker_owner, icon = radarMarker_icon});
 		
 	}
-	
-	
+
+
+
+
 	public static void RemoveRadarObject(GameObject radarMarker_owner){
 		
 		List<RadarObject> newList = new List<RadarObject>();
