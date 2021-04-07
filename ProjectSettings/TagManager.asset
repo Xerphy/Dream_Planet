@@ -15,6 +15,7 @@ TagManager:
   - Enemy
   - Bullet
   - EnemyBullet
+  - ShipPiece
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Player
   - Enemy
   - EnemyBullet
-  - 
+  - ShipPiece
   - 
   - 
   - 
