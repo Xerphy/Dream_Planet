@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1097421693501580715}
   - component: {fileID: 1203289105811201944}
   - component: {fileID: 8461504966287261148}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: EnemyBullet
   m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183456675974015792}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
