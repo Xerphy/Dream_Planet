@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8993232655075607238}
   - component: {fileID: 8993232655075607239}
   - component: {fileID: 8993232655075607232}
-  m_Layer: 3
+  m_Layer: 9
   m_Name: ShipPiece 1
   m_TagString: ShipPiece
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 8993232654847569125}
   - component: {fileID: 8993232654847569126}
   - component: {fileID: 8993232654847569127}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DestroyPiece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 8993232655312334236}
   - component: {fileID: 8993232655312334307}
   - component: {fileID: 8993232655312334237}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CollectedPieceNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 8993232656019087559}
   - component: {fileID: 8993232656019087552}
   - component: {fileID: 8993232656019087553}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AddToCollectedPieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 8993232656684426190}
   - component: {fileID: 8993232656684426191}
   - component: {fileID: 8993232656684426184}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: UpdateUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
