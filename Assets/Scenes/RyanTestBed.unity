@@ -506,6 +506,18 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: eb49a9e83c896c147b7ca30d872ef5cb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7bff3afca2e89e468fbc1805b91fc5b, type: 3}
+--- !u!114 &856358753 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6703588245426941152, guid: 6890b148c2392384090eee687b870ff7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1747204182}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3083c306715d143449f0ee1ab8caf43d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &859932137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2984742792882890986, guid: 7ba851f80fec9504f85e45c3ec5a68a4,
@@ -1167,6 +1179,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8385980755568618273, guid: 6890b148c2392384090eee687b870ff7,
+        type: 3}
+      propertyPath: characterLocomotion.runSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385980755568618273, guid: 6890b148c2392384090eee687b870ff7,
+        type: 3}
+      propertyPath: characterLocomotion.angularSpeed
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 8385980755568618285, guid: 6890b148c2392384090eee687b870ff7,
         type: 3}
       propertyPath: m_Name
@@ -1182,6 +1204,11 @@ PrefabInstance:
       propertyPath: otherCollider
       value: 
       objectReference: {fileID: 1438143877}
+    - target: {fileID: 8619635005096480730, guid: 6890b148c2392384090eee687b870ff7,
+        type: 3}
+      propertyPath: items.Array.data[0].actions
+      value: 
+      objectReference: {fileID: 856358753}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6890b148c2392384090eee687b870ff7, type: 3}
 --- !u!1 &1920387415 stripped
