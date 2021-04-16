@@ -83,8 +83,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isExpanded: 1
   audioClip: {fileID: 8300000, guid: fe7eaf781af07cb4e9454c1daa99e89c, type: 3}
-  audioMixer: 2
-  mixerGroup: {fileID: 0}
+  audioMixer: 1
+  mixerGroup: {fileID: -6230026812097171996, guid: 2d924ca25d1f3574d8a600ac58b63e62,
+    type: 2}
   fadeIn: 0
   volume: 1
 --- !u!1 &8074682150374518028
