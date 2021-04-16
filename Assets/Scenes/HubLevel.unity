@@ -5896,7 +5896,7 @@ MonoBehaviour:
   audioMixer: 2
   mixerGroup: {fileID: 0}
   fadeIn: 0
-  volume: 1
+  volume: 0.4
 --- !u!114 &1556930842
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -6374,7 +6374,7 @@ MonoBehaviour:
   audioMixer: 2
   mixerGroup: {fileID: 0}
   fadeIn: 0
-  volume: 1
+  volume: 0.4
 --- !u!114 &1915849258
 MonoBehaviour:
   m_ObjectHideFlags: 3
