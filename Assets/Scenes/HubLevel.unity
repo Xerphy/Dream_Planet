@@ -5808,9 +5808,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8735222106335912312, guid: 89a92d8730224d644a7efa00485ed4cc,
         type: 3}
+      propertyPath: fxSlider
+      value: 
+      objectReference: {fileID: 1605342150}
+    - target: {fileID: 8735222106335912312, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8735222106335912312, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: musicSlider
+      value: 
+      objectReference: {fileID: 1605342151}
     - target: {fileID: 8735222106335912313, guid: 89a92d8730224d644a7efa00485ed4cc,
         type: 3}
       propertyPath: m_Enabled
