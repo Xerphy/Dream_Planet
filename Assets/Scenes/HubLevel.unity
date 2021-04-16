@@ -1775,7 +1775,8 @@ AudioSource:
   m_GameObject: {fileID: 370740852}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6230026812097171996, guid: 2d924ca25d1f3574d8a600ac58b63e62,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -2969,7 +2970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205.70576
     y: 68.121056
-    width: 129.99997
+    width: 130.97559
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2995,11 +2996,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 103.33588, y: 31.501808}
+  scrollPos: {x: 683.5509, y: 41.874054}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 390.8
-  zoom: 0.73000026
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3008,8 +3009,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1074509278}
-  selectedCommands:
-  - {fileID: 1074509276}
+  selectedCommands: []
   variables:
   - {fileID: 1074509282}
   - {fileID: 1074509287}
@@ -3326,7 +3326,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 62.417473
     y: 68.49815
-    width: 109.17806
+    width: 108.536575
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
