@@ -28,9 +28,9 @@ public class BinnacleScript : MonoBehaviour {
 	public static Image MyCustomMarker;
 
 	[Tooltip("The radius of your radar in unity units. This will also be modified by the Radar Mask Scale.")]
-	public float radarRadius = 20.0f;
+	public float radarRadius = 10.0f;
 	//[Tooltip("This allows you to scale down the mask for the markers on the radar. This is useful if you replace the radar graphic.")]
-	//public float radarMaskScale = 0.86f;
+	public float radarMaskScale = 10.0f;
 	
 	[Tooltip("If Marker Compassing is selected the the markers will rotate around the radar like a compass as the player looks around. Turn this off if you want the radar marks to to rotate e.g. a FPS with a players frustum which rotates instead. This will also control if the Mini Map will compass or not.")]
 	public bool markerCompassing = true;
