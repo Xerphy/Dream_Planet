@@ -2763,7 +2763,7 @@ MonoBehaviour:
     isControllable: 1
     isBusy: 0
     runSpeed: 12
-    angularSpeed: 540
+    angularSpeed: 800
     gravity: -12
     maxFallSpeed: -100
     canRun: 0
