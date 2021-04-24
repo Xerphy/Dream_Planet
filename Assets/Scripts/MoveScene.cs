@@ -15,7 +15,7 @@ public class MoveScene : MonoBehaviour
 
     private void Update()
     {
-        if ((float)VariablesManager.GetGlobal("CollectedPieces") == 3f && (float)VariablesManager.GetGlobal("CompletedLevel1") == 0f)
+        if ((float)VariablesManager.GetGlobal("CollectedPieces") == 7f && (float)VariablesManager.GetGlobal("CompletedLevel1") == 0f)
         {
             VariablesManager.SetGlobal("CompletedLevel1", 1f);   
             StartCoroutine(LoadLevel());

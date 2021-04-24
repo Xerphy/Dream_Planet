@@ -11,6 +11,10 @@ public class SceneLoadingFixes : MonoBehaviour
     public GameObject pieceToDelete1;
     public GameObject pieceToDelete2;
     public GameObject pieceToDelete3;
+    public GameObject pieceToDelete4;
+    public GameObject pieceToDelete5;
+    public GameObject pieceToDelete6;
+    public GameObject pieceToDelete7;
     public Slider musicSlider;
     public Slider fxSlider;
     public Text textScore;
@@ -31,6 +35,18 @@ public class SceneLoadingFixes : MonoBehaviour
 
                 if ((float)VariablesManager.GetGlobal("CollectedPiece3") == 1f)
                     pieceToDelete3.SetActive(false);
+
+                if ((float)VariablesManager.GetGlobal("CollectedPiece4") == 1f)
+                    pieceToDelete4.SetActive(false);
+
+                if ((float)VariablesManager.GetGlobal("CollectedPiece5") == 1f)
+                    pieceToDelete5.SetActive(false);
+
+                if ((float)VariablesManager.GetGlobal("CollectedPiece6") == 1f)
+                    pieceToDelete6.SetActive(false);
+
+                if ((float)VariablesManager.GetGlobal("CollectedPiece7") == 1f)
+                    pieceToDelete7.SetActive(false);
             }
         }
 
@@ -42,7 +58,7 @@ public class SceneLoadingFixes : MonoBehaviour
         float currentScore = (float)VariablesManager.GetGlobal("CollectedPieces");
         if (textScore != null)
         {
-            textScore.text = currentScore + "/3";
+            textScore.text = currentScore + "/7";
         }
     }
 }

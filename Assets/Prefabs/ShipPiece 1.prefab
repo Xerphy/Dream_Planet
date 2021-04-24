@@ -5468,7 +5468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isExpanded: 1
   text: {fileID: 0}
-  content: '{0}/3'
+  content: '{0}/7'
   variable:
     variableType: 0
     global:
