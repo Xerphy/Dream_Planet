@@ -13,7 +13,7 @@ public class Intro : MonoBehaviour
         timeLeft -= Time.deltaTime;
         if(timeLeft <= 0 || Input.GetKeyDown(KeyCode.Return))//if video ends or player presses enter to skip, move to hub scene
         {
-            SceneManager.LoadScene(1);//load to hub
+            SceneManager.LoadScene(2);//load to hub
         }
     }
 }
