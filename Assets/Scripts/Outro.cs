@@ -27,6 +27,9 @@ public class Outro : MonoBehaviour
             VariablesManager.SetGlobal("CollectedPieces", 0f);
             flowchart.SetBooleanVariable("talkedToDingo", false);
             flowchart.SetBooleanVariable("talkedToGoanna", false);
+            flowchart.SetBooleanVariable("talkedToAntechinus", false);
+            flowchart.SetBooleanVariable("talkedToCassowary", false);
+            flowchart.SetBooleanVariable("talkedToWoylie", false);
 
             SceneManager.LoadScene(0);//load to menu
         }
