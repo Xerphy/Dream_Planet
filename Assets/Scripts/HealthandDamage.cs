@@ -21,23 +21,32 @@ public class HealthandDamage : MonoBehaviour
     public Sprite hearts0;
 
     public int playerHealth = 6;
+    Scene currentScene;
+
+    private void Awake()
+    {
+        currentScene = SceneManager.GetActiveScene();
+    }
 
     private void Update()
     {
-        if (playerHealth == 6)
-            UIHealthImage.sprite = hearts6;
-        else if (playerHealth == 5)
-            UIHealthImage.sprite = hearts5;
-        else if (playerHealth == 4)
-            UIHealthImage.sprite = hearts4;
-        else if (playerHealth == 3)
-            UIHealthImage.sprite = hearts3;
-        else if (playerHealth == 2)
-            UIHealthImage.sprite = hearts2;
-        else if (playerHealth == 1)
-            UIHealthImage.sprite = hearts1;
-        else if (playerHealth == 0)
-            UIHealthImage.sprite = hearts0;
+        if (currentScene.buildIndex == 3)
+        {
+            if (playerHealth == 6)
+                UIHealthImage.sprite = hearts6;
+            else if (playerHealth == 5)
+                UIHealthImage.sprite = hearts5;
+            else if (playerHealth == 4)
+                UIHealthImage.sprite = hearts4;
+            else if (playerHealth == 3)
+                UIHealthImage.sprite = hearts3;
+            else if (playerHealth == 2)
+                UIHealthImage.sprite = hearts2;
+            else if (playerHealth == 1)
+                UIHealthImage.sprite = hearts1;
+            else if (playerHealth == 0)
+                UIHealthImage.sprite = hearts0;
+        }
     }
 
     void OnTriggerEnter(Collider other)

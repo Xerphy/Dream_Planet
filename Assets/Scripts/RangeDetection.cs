@@ -11,6 +11,9 @@ public class RangeDetection : MonoBehaviour
     //public GameObject UIPanel;
     public GameObject UIDialogButtonText;
 
+    public string talkedToNPC;
+    public string inNPCRange;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,27 +23,25 @@ public class RangeDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (flowchart.GetBooleanVariable("talkedToDingo"))
+        if (flowchart.GetBooleanVariable(talkedToNPC))  //"talkedToDingo"
         {
-            speechBubble.SetActive(false);  // Disables the speech bubble once the player has talked to dingo
+            speechBubble.SetActive(false);  // Disables the speech bubble once the player has talked to a specific NPC
         }
     }
 
     void OnTriggerEnter()
     {
-        flowchart.SetBooleanVariable("inDingoRange", true);
+        flowchart.SetBooleanVariable(inNPCRange, true); //"inDingoRange"
 
         UICanvas.SetActive(true);
-        //UIPanel.SetActive(true);
         UIDialogButtonText.SetActive(true);
     }
 
     void OnTriggerExit()
     {
-        flowchart.SetBooleanVariable("inDingoRange", false);
+        flowchart.SetBooleanVariable(inNPCRange, false);    //"inDingoRange"
 
         UICanvas.SetActive(false);
-        //UIPanel.SetActive(false);
         UIDialogButtonText.SetActive(false);
     }
 }
