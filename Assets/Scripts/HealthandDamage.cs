@@ -19,7 +19,7 @@ public class HealthandDamage : MonoBehaviour
 
             if (playerHealth <= 0)
             {
-                SceneManager.LoadScene(1);  //upon dying, the player will be sent back to the hub
+                SceneManager.LoadScene(3);  //upon dying, the player will be sent back to the hub
                 playerHealth = 5;   //health is reset
             }
 

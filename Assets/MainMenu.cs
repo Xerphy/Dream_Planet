@@ -9,8 +9,19 @@ public class MainMenu : MonoBehaviour
 
     public float transitionTime = 1f;
 
+    public void OnLevelWasLoaded(int level)
+    {
+        if (level == 0) // Main menu
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }    
+    }
+
     public void Playgame()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
         StartCoroutine(LoadLevel());
     }
 
