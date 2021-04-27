@@ -10,9 +10,35 @@ public class HealthandDamage : MonoBehaviour
     //checkpoint respawn coord
     public Vector3 respawnLocation;
 
-    public Text UIHealth;
+    public Image UIHealthImage;
 
-    public int playerHealth = 5;
+    public Sprite hearts6;
+    public Sprite hearts5;
+    public Sprite hearts4;
+    public Sprite hearts3;
+    public Sprite hearts2;
+    public Sprite hearts1;
+    public Sprite hearts0;
+
+    public int playerHealth = 6;
+
+    private void Update()
+    {
+        if (playerHealth == 6)
+            UIHealthImage.sprite = hearts6;
+        else if (playerHealth == 5)
+            UIHealthImage.sprite = hearts5;
+        else if (playerHealth == 4)
+            UIHealthImage.sprite = hearts4;
+        else if (playerHealth == 3)
+            UIHealthImage.sprite = hearts3;
+        else if (playerHealth == 2)
+            UIHealthImage.sprite = hearts2;
+        else if (playerHealth == 1)
+            UIHealthImage.sprite = hearts1;
+        else if (playerHealth == 0)
+            UIHealthImage.sprite = hearts0;
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -22,26 +48,24 @@ public class HealthandDamage : MonoBehaviour
         }
         else if (other.tag == "EnemyBullet")
         {
-            if (playerHealth <= 0)
+            if (playerHealth <= 1)
             {
                 SceneManager.LoadScene(2);  //upon dying, the player will be sent back to the hub
-                playerHealth = 5;   //health is reset
+                playerHealth = 6;   //health is reset
             }
 
-            UIHealth.text = "Health: " + playerHealth;
             playerHealth -= 1;
         }
         else if (other.tag == "DeathZone")
         {
             transform.position = respawnLocation;//teleport player to last checkpoint when they fall off level
 
-            if (playerHealth <= 0)
+            if (playerHealth <= 2)
             {
                 SceneManager.LoadScene(2);  //upon dying, the player will be sent back to the hub
-                playerHealth = 5;   //health is reset
+                playerHealth = 6;   //health is reset
             }
 
-            UIHealth.text = "Health: " + playerHealth;
             playerHealth -= 1;
         }
     }
