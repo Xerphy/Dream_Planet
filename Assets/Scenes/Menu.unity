@@ -3562,7 +3562,7 @@ PrefabInstance:
     - target: {fileID: 2327214925028551875, guid: e3cd1a474f7b6c34394745fefe122557,
         type: 3}
       propertyPath: loadLevel
-      value: Scenes/HubLevel
+      value: Scenes/IntroCutscene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3cd1a474f7b6c34394745fefe122557, type: 3}
@@ -4394,6 +4394,10 @@ MonoBehaviour:
   pieceToDelete1: {fileID: 0}
   pieceToDelete2: {fileID: 0}
   pieceToDelete3: {fileID: 0}
+  pieceToDelete4: {fileID: 0}
+  pieceToDelete5: {fileID: 0}
+  pieceToDelete6: {fileID: 0}
+  pieceToDelete7: {fileID: 0}
   musicSlider: {fileID: 1278474135}
   fxSlider: {fileID: 516901549}
   textScore: {fileID: 0}

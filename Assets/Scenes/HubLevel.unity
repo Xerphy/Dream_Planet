@@ -2933,8 +2933,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Surprised you''re awake after that one...
 
-    I saw a few of your
-    ship parts and gadgets fly off towards that portal in front of me... good luck!'
+    I saw a few of your ship parts and gadgets fly off towards that portal in front
+    of me... good luck!'
   description: 
   character: {fileID: 1702267172}
   portrait: {fileID: 0}
@@ -4317,6 +4317,7 @@ GameObject:
   - component: {fileID: 1243546687}
   - component: {fileID: 1243546688}
   - component: {fileID: 1243546690}
+  - component: {fileID: 1243546691}
   m_Layer: 0
   m_Name: PlayDeathSound
   m_TagString: Untagged
@@ -4405,9 +4406,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d5a50368374438dbff3af09a8fefb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions: []
+  actions: [{fileID: 1243546691}]
   executingIndex: -1
   isExecuting: 0
+--- !u!114 &1243546691
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243546685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c96c8ab5bb4a4363b6cb5248f18b52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  audioClip: {fileID: 8300000, guid: 581d138e27a92f24084ed0da31bdf56b, type: 3}
+  audioMixer: 1
+  mixerGroup: {fileID: -6230026812097171996, guid: 2d924ca25d1f3574d8a600ac58b63e62,
+    type: 2}
+  fadeIn: 0
+  volume: 0.25
 --- !u!1 &1261978912
 GameObject:
   m_ObjectHideFlags: 0
@@ -5048,6 +5068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Audio Action
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279125247530675427, guid: 38ee24ebd5105c44a999e5f5f08f8357,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4279125247530675427, guid: 38ee24ebd5105c44a999e5f5f08f8357,
         type: 3}

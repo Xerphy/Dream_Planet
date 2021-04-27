@@ -87,7 +87,7 @@ MonoBehaviour:
   mixerGroup: {fileID: -6230026812097171996, guid: 2d924ca25d1f3574d8a600ac58b63e62,
     type: 2}
   fadeIn: 0
-  volume: 0.6
+  volume: 0.8
   spatialBlend: 0.85
   pitch:
     optionIndex: 0
@@ -668,7 +668,7 @@ MonoBehaviour:
   mixerGroup: {fileID: -8202742354654807233, guid: 2d924ca25d1f3574d8a600ac58b63e62,
     type: 2}
   fadeIn: 1
-  volume: 0.8
+  volume: 0.9
 --- !u!114 &7992455750611673073
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -974,6 +974,42 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   step: 0
+--- !u!114 &1600687339133421916
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138185222150141767}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23fc4dc7602f496b888f9d92118038b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 3819620451906860797}
+  keyCode: 32
+--- !u!114 &3819620451906860797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138185222150141767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae039d3d50d64815846459174f0f2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  igniters:
+    keys: ffffffff
+    values:
+    - {fileID: 1600687339133421916}
+  items:
+  - option: 0
+    conditions: {fileID: 3852599317491821032}
+    actions: {fileID: 0}
+  minDistance: 0
+  minDistanceToPlayer: 5
 --- !u!114 &4026451240600527071
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1098,42 +1134,6 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   jumpChain: 0
---- !u!114 &3819620451906860797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5138185222150141767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae039d3d50d64815846459174f0f2d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  igniters:
-    keys: ffffffff
-    values:
-    - {fileID: 1600687339133421916}
-  items:
-  - option: 0
-    conditions: {fileID: 3852599317491821032}
-    actions: {fileID: 0}
-  minDistance: 0
-  minDistanceToPlayer: 5
---- !u!114 &1600687339133421916
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5138185222150141767}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f23fc4dc7602f496b888f9d92118038b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: {fileID: 3819620451906860797}
-  keyCode: 32
 --- !u!1001 &8735222104753560283
 PrefabInstance:
   m_ObjectHideFlags: 0
