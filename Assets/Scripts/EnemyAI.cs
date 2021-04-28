@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using GameCreator.Variables;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -96,6 +97,7 @@ public class EnemyAI : MonoBehaviour
             projectilePosition.y = projectilePositionY;
 
             Rigidbody rb = Instantiate(projectile, projectilePosition, Quaternion.identity).GetComponent<Rigidbody>();
+            VariablesManager.SetGlobal("EnemyShot", true);
 
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             rb.AddForce(transform.up * 5f, ForceMode.Impulse);

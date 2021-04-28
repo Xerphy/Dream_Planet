@@ -64,6 +64,8 @@ public class HealthandDamage : MonoBehaviour
             }
 
             playerHealth -= 1;
+            VariablesManager.SetGlobal("PlayerHit", true);
+            Debug.Log("Player Hit");
         }
         else if (other.tag == "DeathZone")
         {
