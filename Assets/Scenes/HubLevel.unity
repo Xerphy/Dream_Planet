@@ -5133,6 +5133,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4782783576363275626, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875733222904563534, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8735222106335912312, guid: 89a92d8730224d644a7efa00485ed4cc,
         type: 3}
       propertyPath: fxSlider
