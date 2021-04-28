@@ -154,7 +154,7 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
-  health: 100
+  health: 50
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 5
   timeBetweenAttacks: 1
@@ -164,6 +164,8 @@ MonoBehaviour:
   attackRange: 13
   playerInSightRange: 0
   playerInAttackRange: 0
+  explosion: {fileID: 5235927530099574050, guid: de9bc5ea20ecff544b8b3226268cccd1,
+    type: 3}
 --- !u!195 &2984742792882890989
 NavMeshAgent:
   m_ObjectHideFlags: 0

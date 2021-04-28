@@ -28,6 +28,8 @@ public class EnemyAI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    public GameObject explosion;//explosion on death
+
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
@@ -124,6 +126,7 @@ public class EnemyAI : MonoBehaviour
 
     private void DestroyEnemy()
     {
+        Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
