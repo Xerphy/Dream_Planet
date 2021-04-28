@@ -1,8 +1,10 @@
 using UnityEngine;
+using GameCreator.Variables;
 
 public class Gun : MonoBehaviour
 {
     public float range = 100000000f;
+    public GameObject audio;
 
     [SerializeField]
     //private Transform firePoint;//Point where laser beams will originate from
@@ -31,6 +33,8 @@ public class Gun : MonoBehaviour
     {
         if(Physics.Raycast(transform.position, transform.forward, out hit, range))
         {
+            VariablesManager.SetGlobal("RaygunShot", true);
+
             Debug.Log(hit.transform.name);
             Debug.DrawRay(transform.position, transform.forward * 100, Color.red, 3f);
 

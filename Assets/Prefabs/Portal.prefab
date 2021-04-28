@@ -381,7 +381,7 @@ MonoBehaviour:
   mixerGroup: {fileID: -6230026812097171996, guid: 2d924ca25d1f3574d8a600ac58b63e62,
     type: 2}
   fadeIn: 0
-  volume: 0.6
+  volume: 0.3
 --- !u!1 &4409626555404122696
 GameObject:
   m_ObjectHideFlags: 0

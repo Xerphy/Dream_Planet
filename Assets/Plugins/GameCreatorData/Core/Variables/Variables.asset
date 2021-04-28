@@ -242,6 +242,7 @@ MonoBehaviour:
   - {fileID: -1139654153309887822}
   - {fileID: 9080847266447775916}
   - {fileID: -553781560597566703}
+  - {fileID: 3261842608755476786}
 --- !u!114 &225133988336927860
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -294,6 +295,42 @@ MonoBehaviour:
     name: CollectedPiece2
     save: 0
     type: 2
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &3261842608755476786
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: 183ksi51
+  m_EditorClassIdentifier: 
+  variable:
+    name: RaygunShot
+    save: 0
+    type: 3
     tags: 0
     varStr:
       value: 
