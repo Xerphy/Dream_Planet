@@ -796,7 +796,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020da939d7f047b47b3a97e6cea3e1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UIHealth: {fileID: 0}
+  respawnLocation: {x: 0, y: 0, z: 0}
+  UIHealthImage: {fileID: 0}
+  hearts6: {fileID: 0}
+  hearts5: {fileID: 0}
+  hearts4: {fileID: 0}
+  hearts3: {fileID: 0}
+  hearts2: {fileID: 0}
+  hearts1: {fileID: 0}
+  hearts0: {fileID: 0}
   playerHealth: 5
 --- !u!114 &1550825584213411700
 MonoBehaviour:
@@ -1574,6 +1582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846859088538058162, guid: 92e84b1b332bab74abb40b9cc391b8f1,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8846859088538058172, guid: 92e84b1b332bab74abb40b9cc391b8f1,
         type: 3}
