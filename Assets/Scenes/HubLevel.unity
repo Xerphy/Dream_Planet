@@ -5203,6 +5203,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 975794009288639373, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271408176935822014, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3334805972126493776, guid: 89a92d8730224d644a7efa00485ed4cc,
         type: 3}
       propertyPath: m_IsActive
@@ -5228,11 +5238,36 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5623960555595293592, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5875733222904563534, guid: 89a92d8730224d644a7efa00485ed4cc,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875733222904563534, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: items.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875733222904563534, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: items.Array.data[0].option
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5875733222904563534, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: items.Array.data[0].actions
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875733222904563534, guid: 89a92d8730224d644a7efa00485ed4cc,
+        type: 3}
+      propertyPath: items.Array.data[0].conditions
+      value: 
+      objectReference: {fileID: 1777338203}
     - target: {fileID: 8735222106335912312, guid: 89a92d8730224d644a7efa00485ed4cc,
         type: 3}
       propertyPath: fxSlider
@@ -5307,6 +5342,18 @@ MonoBehaviour:
     actions: {fileID: 484778295}
   minDistance: 0
   minDistanceToPlayer: 5
+--- !u!114 &1777338203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2736684092619624086, guid: 89a92d8730224d644a7efa00485ed4cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1777338198}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec482fc994a34808b4a10d8d30f0bf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1878855461
 PrefabInstance:
   m_ObjectHideFlags: 0

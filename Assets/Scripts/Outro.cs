@@ -7,7 +7,7 @@ using Fungus;
 
 public class Outro : MonoBehaviour
 {
-    float timeLeft = 45.0f;//38 seconds for outro cutscene
+    float timeLeft = 53.0f; //53 seconds for outro cutscene
     public Flowchart flowchart;
 
     // Update is called once per frame
