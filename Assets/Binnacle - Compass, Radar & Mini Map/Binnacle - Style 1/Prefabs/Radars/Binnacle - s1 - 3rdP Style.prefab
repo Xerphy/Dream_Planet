@@ -593,7 +593,8 @@ MonoBehaviour:
   playerCamera: {fileID: 0}
   miniMapCamera: {fileID: 2057192}
   defaulMarkerImage: {fileID: 11441914, guid: 8aa22d1ef20bf4a6c8ec59a20d00790a, type: 3}
-  radarRadius: 30
+  radarRadius: 120
+  radarMaskScale: 10
   markerCompassing: 1
   northModifier: 0
   compassingObjects:
