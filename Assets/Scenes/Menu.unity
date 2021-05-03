@@ -2571,18 +2571,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Pause - Esc
+  m_text: 'Skip Cutscenes - Enter
+
+    Pause - Esc
 
     Move - WASD
 
     Jump - Spacebar
 
-    Control Camera
-    - Mouse
+    Control
+    Camera - Mouse
 
     Sprint - Left Shift
 
     Attack - Right Click
+
+    Shoot
+    - Left Click
 
 '
   m_isRightToLeft: 0
