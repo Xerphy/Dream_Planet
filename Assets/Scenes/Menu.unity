@@ -2584,7 +2584,8 @@ MonoBehaviour:
 
     Attack - Right Click
 
-'
+    Shoot - Left
+    Click'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b489ed57d49b3574ab2a5396d1a12d40, type: 2}
   m_sharedMaterial: {fileID: 950513723411594075, guid: b489ed57d49b3574ab2a5396d1a12d40,
