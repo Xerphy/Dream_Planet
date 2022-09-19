@@ -2,6 +2,8 @@
 
 ​Play on a magical dream-like planet exploring faraway lands and interacting with some interesting creatures! Be careful, some may be dangerous. Your goal is to find the missing pieces to your broken rocket ship to get off the planet and head home. Can you find them all?
 
+[Trailer](https://www.youtube.com/watch?v=RTaO13VMaoA)
+
 ## Installation
 
 If on GitHub, navigate to the [releases](https://github.com/Xerphy/Dream_Planet/releases/) page and download the latest zip. If on itch, you should already have it installed if you are reading this!
