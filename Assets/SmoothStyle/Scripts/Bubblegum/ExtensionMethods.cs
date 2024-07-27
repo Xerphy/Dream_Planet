@@ -727,7 +727,7 @@ namespace Bubblegum
 			switch (orientation)
 			{
 				case DeviceOrientation.LandscapeLeft:
-					return ScreenOrientation.Landscape;
+					return ScreenOrientation.LandscapeLeft;
 
 				case DeviceOrientation.LandscapeRight:
 					return ScreenOrientation.LandscapeRight;

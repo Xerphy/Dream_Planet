@@ -9,7 +9,8 @@ public class PlayerAdditions : MonoBehaviour
     void Start()
     {
         Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.Locked;
+        WebGLInput.stickyCursorLock = true;
     }
 
     // Update is called once per frame
